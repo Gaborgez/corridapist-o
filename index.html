@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Grande Corrida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="0.png" alt="">
+            <p>Escolha Seu carro</p>
+            <button class="btn-proximo" data-proximo="1">wingo</button>
+            <button class="btn-proximo" data-proximo="2">Dj</button>
+        </div>
+        <div class="passo" id="passo-1">Com o wingo Você começa sua jornada em Radiator Springs, indo encontrar a primeira pista</p>
+            <button class="btn-proximo" data-proximo="3">Treinar para correr com o Dj</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Com o Dj Você começa sua jornada em Radiator Springs, indo encontrar a primeira pista</p>
+            <button class="btn-proximo" data-proximo="5">Treinar para correr com o wingo</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Voce começa a correr contra seu amigo mcqueen.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o resultado</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="desist3.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                conquistado.</p>
+             <button class="btn-proximo" data-proximo="8">Voltar e correr</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Voce começa a correr contra seu amigo mate</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o resultado</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                conquistado.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e correr</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>V0CE GANHA DISPARADO, VOCE ESTA PRONTO!</p>
+            <button class="btn-proximo" data-proximo="9">Seguir para a grande corrida</button>
+        
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>voce quer tentar de novo e vai treinar!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a pista e correr com mate.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>chegou a grande noite, o local esta lotado, e todos estao torcendo para seu adversario, Vamos calar todos!</p>
+            <button class="btn-proximo" data-proximo="11">Começar a corrida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="vitria.png" alt="É CAMPEÃO!">
+            <p>voces correm e sem dar chances para o seu adversario, Voce vence a corrida! Todos gritam seu nome!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>É CAMPEÃO!</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
